@@ -7,17 +7,20 @@ using namespace std;
 string solution(vector<string> participant, vector<string> completion) {
     string answer = "";
 
-    for (int i = 0; i < completion.size(); ++i) {
-        auto it = find(participant.begin(), participant.end(), completion[i]);
+    sort(participant.begin(), participant.end());
+    sort(completion.begin(), completion.end());
 
-        if (it != participant.end())
+    for (int i = 0; i < participant.size(); ++i) {
+        if (i == participant.size() - 1)
         {
-            participant.erase(it);
-            continue;
+            return participant[i];
+        }
+
+        if (participant[i] != completion[i])
+        {
+            return participant[i];
         }
     }
-
-    answer = participant[0];
 
     return answer;
 }
