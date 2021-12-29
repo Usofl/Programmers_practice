@@ -1,16 +1,14 @@
-#include "lotto.h"
 #include <string>
 #include <vector>
 
 using namespace std;
 
-vector<int> lotto::solution(vector<int> lottos, vector<int> win_nums)
-{
+vector<int> solution(vector<int> lottos, vector<int> win_nums) {
 	vector<int> answer;
 
 	int count = 0;
 	int zero = 0;
-	
+
 	for (auto iter = lottos.begin(); iter != lottos.end(); ++iter)
 	{
 		if (*iter == 0)
@@ -29,7 +27,7 @@ vector<int> lotto::solution(vector<int> lottos, vector<int> win_nums)
 
 	switch (count + zero)
 	{
-	case 6: 
+	case 6:
 		answer.push_back(1);
 		break;
 	case 5:

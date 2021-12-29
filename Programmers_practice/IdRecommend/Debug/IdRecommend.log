@@ -1,0 +1,5 @@
+﻿  IdRecommend.cpp
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\IdRecommend\IdRecommend.cpp(11,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\IdRecommend\IdRecommend.cpp(30,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\IdRecommend\IdRecommend.cpp(45,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  IdRecommend.vcxproj -> C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\Debug\IdRecommend.exe
