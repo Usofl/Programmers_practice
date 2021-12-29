@@ -1,0 +1,4 @@
+﻿  CraneDoll.cpp
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\CraneDoll\CraneDoll.cpp(12,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\CraneDoll\CraneDoll.cpp(14,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CraneDoll.vcxproj -> C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\Debug\CraneDoll.exe
