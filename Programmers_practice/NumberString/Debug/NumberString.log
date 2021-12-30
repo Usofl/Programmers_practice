@@ -1,0 +1,17 @@
+﻿  NumberString.cpp
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\NumberString\NumberString.cpp(25,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\NumberString\NumberString.cpp(40,37): error C2664: 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::push_back(const _Elem)': 인수 1을(를) '_Ty2'에서 'const _Elem'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Ty2=std::string
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Users\sooyo\Documents\GitHub\Programmers_practice\Programmers_practice\NumberString\NumberString.cpp(40,29): message : 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3861,33): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::push_back' 선언을 참조하십시오.

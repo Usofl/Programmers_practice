@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InternalNumber", "InternalN
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CraneDoll", "CraneDoll\CraneDoll.vcxproj", "{02F7E4EA-0FD8-4829-9070-979673870B28}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberString", "NumberString\NumberString.vcxproj", "{37EA48DA-3769-49A5-BB65-811B4347D259}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FailureRate", "FailureRate\FailureRate.vcxproj", "{894BA3B9-B14B-4E23-ADE2-664819F50A13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +95,22 @@ Global
 		{02F7E4EA-0FD8-4829-9070-979673870B28}.Release|x64.Build.0 = Release|x64
 		{02F7E4EA-0FD8-4829-9070-979673870B28}.Release|x86.ActiveCfg = Release|Win32
 		{02F7E4EA-0FD8-4829-9070-979673870B28}.Release|x86.Build.0 = Release|Win32
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Debug|x64.ActiveCfg = Debug|x64
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Debug|x64.Build.0 = Debug|x64
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Debug|x86.ActiveCfg = Debug|Win32
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Debug|x86.Build.0 = Debug|Win32
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Release|x64.ActiveCfg = Release|x64
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Release|x64.Build.0 = Release|x64
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Release|x86.ActiveCfg = Release|Win32
+		{37EA48DA-3769-49A5-BB65-811B4347D259}.Release|x86.Build.0 = Release|Win32
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Debug|x64.ActiveCfg = Debug|x64
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Debug|x64.Build.0 = Debug|x64
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Debug|x86.ActiveCfg = Debug|Win32
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Debug|x86.Build.0 = Debug|Win32
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x64.ActiveCfg = Release|x64
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x64.Build.0 = Release|x64
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x86.ActiveCfg = Release|Win32
+		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
