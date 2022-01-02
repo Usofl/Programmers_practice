@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberString", "NumberStrin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FailureRate", "FailureRate\FailureRate.vcxproj", "{894BA3B9-B14B-4E23-ADE2-664819F50A13}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkoutClothes", "WorkoutClothes\WorkoutClothes.vcxproj", "{3FAAE535-9886-4963-99BA-24597BDA00BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x64.Build.0 = Release|x64
 		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x86.ActiveCfg = Release|Win32
 		{894BA3B9-B14B-4E23-ADE2-664819F50A13}.Release|x86.Build.0 = Release|Win32
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Debug|x64.ActiveCfg = Debug|x64
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Debug|x64.Build.0 = Debug|x64
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Debug|x86.Build.0 = Debug|Win32
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Release|x64.ActiveCfg = Release|x64
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Release|x64.Build.0 = Release|x64
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Release|x86.ActiveCfg = Release|Win32
+		{3FAAE535-9886-4963-99BA-24597BDA00BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
