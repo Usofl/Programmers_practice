@@ -1,60 +1,53 @@
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 string solution(vector<int> numbers) {
     vector<string> v;
+    string answer = "";
 
-    for (int i = 0; i < numbers.size(); ++i)
+
+    while (numbers.size() != 0)
     {
-        string num = to_string(numbers[i]);
+        string num = to_string(numbers[0]);
+        int count = 0;
 
-        for (int j = 0; j < numbers.size(); ++j) 
+        for (int i = 0; i < numbers.size(); ++i)
         {
-            if (i != j)
+            if (numbers[i] % 10 != 0)
             {
-                num += to_string(numbers[j]);
-            }
-        }
-
-        v.push_back(num);
-    }
-
-    string answer = v[0];
-
-    if (v.size() > 1)
-    {
-        for (int i = 1; i < v.size(); ++i)
-        {
-            if (answer != v[i])
-            {
-                int en = 0;
-
-                if (answer.size() < v[i].size())
+                if (num.compare(to_string(numbers[i])) < 0)
                 {
-                    en = 1;
-                    continue;
+                    num = to_string(numbers[i]);
+                    count = i;
                 }
-                else if (answer.size() == v[i].size())
+            }
+            else
+            {
+                if (num[0] == to_string(numbers[i])[0])
                 {
-                    for (int j = 0; j < answer.size(); ++j)
+                    if (num.compare(to_string(numbers[i])) > 0)
                     {
-                        if (answer[j] < v[i][j])
-                        {
-                            en = 1;
-                            break;
-                        }
+                        num = to_string(numbers[i]);
+                        count = i;
                     }
                 }
-
-                if (en != 0)
+                else
                 {
-                    answer = v[i];
+                    if (num.compare(to_string(numbers[i])) < 0)
+                    {
+                        num = to_string(numbers[i]);
+                        count = i;
+                    }
                 }
             }
         }
-    }
 
+        answer += num;
+        numbers.erase(numbers.begin() + count);
+    }
+    
     return answer;
 }
