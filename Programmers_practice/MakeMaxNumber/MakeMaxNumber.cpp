@@ -8,7 +8,6 @@ string solution(vector<int> numbers) {
     vector<string> v;
     string answer = "";
 
-
     while (numbers.size() != 0)
     {
         string num = to_string(numbers[0]);
