@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e27e97b9-22e7-46b2-818d-2c6831e579d3": {
+      "ProjectGuid": "e27e97b9-22e7-46b2-818d-2c6831e579d3",
+      "DisplayName": "OpenChat",
+      "ColorIndex": 0
+    },
+    "37ea48da-3769-49a5-bb65-811b4347d259": {
+      "ProjectGuid": "37ea48da-3769-49a5-bb65-811b4347d259",
+      "DisplayName": "NumberString",
+      "ColorIndex": 1
+    },
+    "c779fac7-d278-4e20-bed1-dc0151bdefdf": {
+      "ProjectGuid": "c779fac7-d278-4e20-bed1-dc0151bdefdf",
+      "DisplayName": "MockTest",
+      "ColorIndex": 2
+    },
+    "66872f22-5733-4c09-b093-54e9938f3e49": {
+      "ProjectGuid": "66872f22-5733-4c09-b093-54e9938f3e49",
+      "DisplayName": "lotto",
+      "ColorIndex": 3
+    },
+    "d46b9736-c990-4331-8c6a-67b1a4a0d733": {
+      "ProjectGuid": "d46b9736-c990-4331-8c6a-67b1a4a0d733",
+      "DisplayName": "KmovesNumber",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
