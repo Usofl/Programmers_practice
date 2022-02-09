@@ -25,7 +25,12 @@
       "ProjectGuid": "d46b9736-c990-4331-8c6a-67b1a4a0d733",
       "DisplayName": "KmovesNumber",
       "ColorIndex": 4
+    },
+    "3e178e2d-c765-446d-955a-2316afc79297": {
+      "ProjectGuid": "3e178e2d-c765-446d-955a-2316afc79297",
+      "DisplayName": "ReportResult",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
