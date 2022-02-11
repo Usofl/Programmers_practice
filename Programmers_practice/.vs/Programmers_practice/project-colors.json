@@ -30,7 +30,17 @@
       "ProjectGuid": "3e178e2d-c765-446d-955a-2316afc79297",
       "DisplayName": "ReportResult",
       "ColorIndex": 5
+    },
+    "1a0f4177-9dc5-42a1-b02f-ea1923266013": {
+      "ProjectGuid": "1a0f4177-9dc5-42a1-b02f-ea1923266013",
+      "DisplayName": "124World",
+      "ColorIndex": 6
+    },
+    "7e7d4f08-6035-4ad3-ba19-639aabf5abe2": {
+      "ProjectGuid": "7e7d4f08-6035-4ad3-ba19-639aabf5abe2",
+      "DisplayName": "MakeMaxNumber",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

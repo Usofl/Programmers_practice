@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenChat", "OpenChat\OpenCh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportResult", "ReportResult\ReportResult.vcxproj", "{3E178E2D-C765-446D-955A-2316AFC79297}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "124World", "124World\124World.vcxproj", "{1A0F4177-9DC5-42A1-B02F-EA1923266013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{3E178E2D-C765-446D-955A-2316AFC79297}.Release|x64.Build.0 = Release|x64
 		{3E178E2D-C765-446D-955A-2316AFC79297}.Release|x86.ActiveCfg = Release|Win32
 		{3E178E2D-C765-446D-955A-2316AFC79297}.Release|x86.Build.0 = Release|Win32
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Debug|x64.ActiveCfg = Debug|x64
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Debug|x64.Build.0 = Debug|x64
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Debug|x86.Build.0 = Debug|Win32
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Release|x64.ActiveCfg = Release|x64
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Release|x64.Build.0 = Release|x64
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Release|x86.ActiveCfg = Release|Win32
+		{1A0F4177-9DC5-42A1-B02F-EA1923266013}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
