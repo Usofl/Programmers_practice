@@ -40,7 +40,12 @@
       "ProjectGuid": "7e7d4f08-6035-4ad3-ba19-639aabf5abe2",
       "DisplayName": "MakeMaxNumber",
       "ColorIndex": 7
+    },
+    "c78ebb75-c94d-4c69-9d51-4dd98fca0fac": {
+      "ProjectGuid": "c78ebb75-c94d-4c69-9d51-4dd98fca0fac",
+      "DisplayName": "MoreSpicy",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
