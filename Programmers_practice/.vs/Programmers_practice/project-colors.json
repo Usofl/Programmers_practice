@@ -45,7 +45,12 @@
       "ProjectGuid": "c78ebb75-c94d-4c69-9d51-4dd98fca0fac",
       "DisplayName": "MoreSpicy",
       "ColorIndex": 8
+    },
+    "a696755d-0047-4bd4-bbb8-54a3e939238f": {
+      "ProjectGuid": "a696755d-0047-4bd4-bbb8-54a3e939238f",
+      "DisplayName": "Practice",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
